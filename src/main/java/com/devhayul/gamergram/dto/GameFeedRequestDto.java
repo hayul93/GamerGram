@@ -9,5 +9,4 @@ public class GameFeedRequestDto { //요청받은 값들이다.
     private String nickname;
     private String title;
     private String contents;
-
 }
