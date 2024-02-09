@@ -17,6 +17,8 @@ import java.util.List;
 @RequiredArgsConstructor //@RequiredArgsConstructor는 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성
 public class GameController {
 
+
+
     private final GameFeedService gameFeedService; //GameFeedService 를 주입받아와서 객체에 메서드를 호줄해서 전달함
     @PostMapping
     //ResponseEntity<> 로 반환 타입을 받는 이유가 status 값을 반환하기 위해서인지? 범용성이 좋아서 사용 여러가지 기능이있다.
